@@ -15,7 +15,7 @@
     width: 320px;
     height: 500px;
     border-radius: 10px;
-    background:#f6f6f8 url(./mermaid_skirt.jpg) center no-repeat;
+    background:#f6f6f8 url(../mermaid_skirt.jpg) center no-repeat;
     border: 2px solid #eee;
     overflow: hidden;
 }
