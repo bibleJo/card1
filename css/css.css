@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+}
+.wrap {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 320px;
+    height: 500px;
+    border-radius: 10px;
+    background:#f6f6f8 url(mermaid_skirt.jpg) center no-repeat;
+    border: 2px solid #eee;
+    overflow: hidden;
+}
+.txt {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 400px;
+    border-top: 2px solid #eee;
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.top_txt {
+    height: 70px;
+    border-bottom: 1px solid #eee;
+}
+.top_txt span {
+    float: right;
+    color: #666;
+}
+.txt p {
+    margin-top: 10px;
+    line-height: 20px;
+}
+.size_txt {
+    width: 100%;
+    margin-top: 10px;
+}
+.size {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.size > li {
+    float: left;
+    margin-right: 15px;
+}
+.color_txt {margin-top: 10px;}
+
+.color {margin-top: 10px;}
+
+.color > li {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    float: left;
+    padding: 5px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.color > li:nth-child(1) {background-color: #000;}
+.color > li:nth-child(2) {background-color: #fff;}
+.color > li:nth-child(3) {background-color: lightsalmon;}
+.color > li:nth-child(4) {background-color: indianred;}
+.color > li:nth-child(5) {background-color: midnightblue;}
+
+.box:hover > .txt {margin-top: 200px;}
+
+button {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 14px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
